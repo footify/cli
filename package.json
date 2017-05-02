@@ -1,0 +1,27 @@
+{
+  "name": "@footify/cli",
+  "version": "1.0.0",
+  "description": "Cli helper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/footify/cli.git"
+  },
+  "author": "Maxime Guedj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/footify/cli/issues"
+  },
+  "homepage": "https://github.com/footify/cli#readme",
+  "dependencies": {
+    "@footify/data-api": "git+https://github.com/footify/data-api.git",
+    "bluebird": "^3.5.0",
+    "commander": "^2.9.0",
+    "dotenv": "^4.0.0",
+    "mongoose": "^4.9.7",
+    "winston": "^2.3.1"
+  }
+}
