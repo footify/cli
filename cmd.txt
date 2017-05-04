@@ -1,0 +1,3 @@
+node index.js --create-pub --name BarDePGM --streetNumber 196 --streetName LaFayette --zipCode 75010 --city Paris --pictureUrl "https://parisachier.files.wordpress.com/2013/03/mauri7.jpg?w=300&h=178"
+
+node index.js --create-baby --pubId 590b8e29b324e72dc423a717 --name LaFaCrew --pictureUrl "http://www.vistesreves.fr/wp-content/uploads/2014/03/babyfoot-bar-soiree-anniversaire-300x191.png" --manufacturer Bonzini
