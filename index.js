@@ -2,7 +2,7 @@ const cli = require('./lib/cli');
 const logger = require('winston');
 const program = require('commander');
 const database = require('./database');
-
+const httpHelper = require('@footify/http-helper');
 
 const env = process.env['NODE_ENV'] || 'development';
 
@@ -27,6 +27,7 @@ program
 
 database.connectToDb()
     .then(() => {
+        httpHelper.algoliaHelper.init();
         return cli.processCommand(program);
     })
     .then(() => {

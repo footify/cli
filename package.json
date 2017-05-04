@@ -18,6 +18,7 @@
   "homepage": "https://github.com/footify/cli#readme",
   "dependencies": {
     "@footify/data-api": "git+https://github.com/footify/data-api.git",
+    "@footify/http-helper": "git+https://github.com/footify/http-helper.git",
     "bluebird": "^3.5.0",
     "commander": "^2.9.0",
     "dotenv": "^4.0.0",
